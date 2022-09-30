@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://scientific-sims.com/'>Scientific Simulations</a>. Computational Research Scientist.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  contact: >
+    <p>ackirby88 (at) gmail (dot) com</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my page! I'm a Computaional Research Scientist with Scientific Simulations, LLC and an affiliate with the University of Wyoming's Department of Mechanical Engineering. Currently, I'm leading research projects in the fields of Wind Energy and Aerospace, including work with NREL and NASA. In the past, I worked at MIT Lincoln Laboratory in the Supercomputing Group (LLSC) directed by <a href='http://www.mit.edu/~kepner/'>Dr. Jeremy Kepner</a> as a Postdoctoral Associate developing advanced parallel algorithms for Deep Learning.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I did my Ph.D. in Mechanical Engineering at the University of Wyoming under the direction of <a href='http://www.scientific-sims.com/cfdlab/Dimitri_Mavriplis/HOME/'>Professor Dimitri Mavriplis</a> where I worked on development of high-order numerical methods for multiscale computational fluid dynamics problems. During my Ph.D. studies, I was fortunate to be selected as a <a href='https://bluewaters.ncsa.illinois.edu/fellowships/2016'>NSF Blue Waters Graduate Fellow</a>, in which I performed the highest-fidelity blade-resolved wind farm simulations to date! Before changing to the dark side of computational mathematics and engineering, I did a M.S. at Columbia University in Applied Mathematics, and a B.S. in Mathematics at the University of Wisconsin-Madison. During my time at those universities, I got to work with some wonderful people such as <a href='https://www.apam.columbia.edu/faculty/marc-spiegelman'>Marc Spiegelman (APAM Columbia)</a> and <a href='https://people.math.wisc.edu/~jeanluc/'>Jean-Luc Thiffeault (Math UW-Madison)</a>.

@@ -1,33 +1,29 @@
-- title: General Information
+- title: Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Andrew C. Kirby
+    - name: Contact
+      value: ackirby88 (at) gmail (dot) com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Mechanical Engineering
+      institution: University of Wyoming
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - 
+        - title: Description 2.
           contents:
             - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
+    - title: MS Applied Mathematics
+      institution: Columbia University
+      year: 2013
+    - title: BS Mathematics
+      institution: University of Wisconsin-Madison
+      year: 2011
+      
 - title: Experience
   type: time_table
   contents:
