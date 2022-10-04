@@ -13,8 +13,8 @@
       institution: University of Wyoming
       year: 2018
       description:
-        - Advisor: Dimitri Mavriplis
-        - Dissertation: Enabling High-Order Methods for Extreme-Scale Simulations
+        - Advisor - Dimitri Mavriplis
+        - Dissertation - <span class="emphasized">Enabling High-Order Methods for Extreme-Scale Simulations</span>
     - title: MS Applied Mathematics
       institution: Columbia University
       year: 2013
@@ -110,10 +110,10 @@
            - 50,000 Node-hours on NSF Blue Waters Supercomputer
            - $50,000 Stipend
 
-    
     - year: 2011
       items: 
         - title: Research Experience for Undergraduates (REU) in Mathematics
+          description:
           - North Carolina State University, Environmental Protection Agency, Raleigh, NC
           - <span class="emphasized">Development of an Ozone Inhalation and C-Fiber Response Model</span>
           - $4,000 Stipend
@@ -121,5 +121,6 @@
     - year: 2010
       items: 
         - title: Undergraduate Mathematics Program - Mentoring Through Critical Transition Points
+          description:
           - Texas A & M University, College Station, TX
         
