@@ -92,7 +92,7 @@
   type: time_table
   contents:
     - year: 2020
-      items:
+      description:
         - title: IEEE Outstanding Paper Award 
           description: 
             - IEEE High Performance Extreme Computing (HPEC) Conference
@@ -103,7 +103,7 @@
             - Best Satori (supercomputer) life hack - best use of Satori's unique features or best Satori life hack
            
     - year: 2016
-      items: 
+      description:
         - title: <a href="https://bluewaters.ncsa.illinois.edu/fellowships/2016">Blue Waters Graduate Fellowship</a>
           description: 
            - Selected 1 of 10 Nationally
@@ -111,7 +111,7 @@
            - $50,000 Stipend
 
     - year: 2011
-      items: 
+      description:
         - title: Research Experience for Undergraduates (REU) in Mathematics
           description:
           - North Carolina State University, Environmental Protection Agency, Raleigh, NC
@@ -119,7 +119,7 @@
           - $4,000 Stipend
 
     - year: 2010
-      items: 
+      description:
         - title: Undergraduate Mathematics Program - Mentoring Through Critical Transition Points
           description:
           - Texas A & M University, College Station, TX
