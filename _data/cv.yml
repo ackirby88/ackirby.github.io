@@ -103,8 +103,8 @@
             - Best Satori (supercomputer) life hack - best use of Satori's unique features or best Satori life hack
            
     - year: 2016
-      description:
-        - title: <a href="https://bluewaters.ncsa.illinois.edu/fellowships/2016">Blue Waters Graduate Fellowship</a>
+      items: 
+        - title: Blue Waters Graduate Fellowship
           description: 
            - Selected 1 of 10 Nationally
            - 50,000 Node-hours on NSF Blue Waters Supercomputer
