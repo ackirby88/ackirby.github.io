@@ -91,36 +91,34 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2020
+    - title: IEEE Outstanding Paper Award 
+      year: 2020
       description:
-        - title: IEEE Outstanding Paper Award 
-          description: 
-            - IEEE High Performance Extreme Computing (HPEC) Conference
-            - <span class="emphasized">Layer-Parallel Training with GPU Concurrency of Deep Residual Neural Networks via Nonlinear Multigrid</span>
-        - title: MIT Green AI Hackathon Supercomputing Award
-          description:
-            - MIT Green AI Hackathon with the MIT-IBM Watson AI Lab
-            - Best Satori (supercomputer) life hack - best use of Satori's unique features or best Satori life hack
+        - IEEE High Performance Extreme Computing (HPEC) Conference
+        - <span class="emphasized">Layer-Parallel Training with GPU Concurrency of Deep Residual Neural Networks via Nonlinear Multigrid</span>
+    
+    - title: MIT Green AI Hackathon Supercomputing Award
+      year: 2020
+      description:
+        - MIT Green AI Hackathon with the MIT-IBM Watson AI Lab
+        - Best Satori (supercomputer) life hack - best use of Satori's unique features or best Satori life hack
            
-    - year: 2016
-      items: 
-        - title: Blue Waters Graduate Fellowship
-          description: 
-           - Selected 1 of 10 Nationally
-           - 50,000 Node-hours on NSF Blue Waters Supercomputer
-           - $50,000 Stipend
+    - title: Blue Waters Graduate Fellowship
+      year: 2016
+      description: 
+        - Selected 1 of 10 Nationally
+        - 50,000 Node-hours on NSF Blue Waters Supercomputer
+        - $50,000 Stipend
 
-    - year: 2011
+    - title: Research Experience for Undergraduates (REU) in Mathematics
+      year: 2011
       description:
-        - title: Research Experience for Undergraduates (REU) in Mathematics
-          description:
-          - North Carolina State University, Environmental Protection Agency, Raleigh, NC
-          - <span class="emphasized">Development of an Ozone Inhalation and C-Fiber Response Model</span>
-          - $4,000 Stipend
+        - North Carolina State University, Environmental Protection Agency, Raleigh, NC
+        - <span class="emphasized">Development of an Ozone Inhalation and C-Fiber Response Model</span>
+        - $4,000 Stipend
 
-    - year: 2010
+    - title: Undergraduate Mathematics Program - Mentoring Through Critical Transition Points
+      year: 2010
       description:
-        - title: Undergraduate Mathematics Program - Mentoring Through Critical Transition Points
-          description:
-          - Texas A & M University, College Station, TX
+        - Texas A & M University, College Station, TX
         
