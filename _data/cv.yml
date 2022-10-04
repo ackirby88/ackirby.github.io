@@ -5,6 +5,8 @@
       value: Andrew C. Kirby
     - name: Contact
       value: ackirby88 (at) gmail (dot) com
+    - name: Research Interests
+      value: Computational Fluid Dynamics, High Performance Computing, Applied Mathematics, Wind Energy, Aerospace
 
 - title: Education
   type: time_table
