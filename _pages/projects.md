@@ -2,10 +2,10 @@
 layout: page
 title: research
 permalink: /projects/
-description: My research focuses on the develop of computational simulation and data analysis tools to gain insight into fluid mechanics in the context of aerospace and wind energy applications. The underpinnings of my research are the Computional Fluid Dynamics codes I've developed over the past decade, in particular WAKE3D/dg4est, resulting in the highest fidelity wind farm and rotorcraft simulations to date.
+description: My research focuses on the develop of computational simulation and data analysis tools to gain insight into fluid mechanics in the context of aerospace and wind energy applications. The underpinnings of my research are the Computional Fluid Dynamics codes I've developed over the past decade, in particular WAKE3D/dg4est, resulting in the highest fidelity wind farm and rotorcraft simulations to date. My long-term research goals are to develop multiscale high-order numerical methods applicable to renewable energy and aerospace communities on computing capabilities ranging from a single workstation all the way up to leadership-class heterogeneous exascale supercomputers. To achieve these goals, innovations in applied mathematics, computer science, and fluid dynamics are a must!
 nav: true
-nav_order: 2
-display_categories: [Acoustics,Computing,Wind Energy,Fixed-Wing Aero,Rotorcraft Aero]
+nav_order: 1
+display_categories: [Wind Energy, Fixed-Wing Aero, Rotorcraft Aero, Acoustics, Computing]
 horizontal: false
 ---
 
