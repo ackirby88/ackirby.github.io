@@ -33,10 +33,14 @@ including the highest fidelity simulation of a wind turbine to date.
 </div>
 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html src="https://www.youtube.com/embed/NHNL5JRQnHQ?rel=0" title="Wind Turbine Simulation and Its Animation" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/NHNL5JRQnHQ?rel=0"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
 </div>
 <div class="caption">
     Much of this wind energy research was performed on the NCAR-Wyoming Cheyenne and Yellowstone supercomputers. <br/>
