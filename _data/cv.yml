@@ -112,13 +112,27 @@
         - 50,000 Node-hours on NSF Blue Waters Supercomputer
         - $50,000 Stipend
 
+- title: HPC and Mathematics Training Programs
+  type: time_table
+  contents:
+    - title: Argonne national Laboratory GPU Hackathon
+      year: 2021
+    - title: The p4est software for parallel AMR Hausdorff School
+      year: 2020
+    - title: MIT Green AI 2020: Tutorial and Hackathon
+      year: 2020
+    - title: XSEDE International High Performance Computing Summer School
+      year: 2017
+    - title: NVIDIA GPU Programming Workshop and Poster Session
+      year: 2016
+    - title: DOE Argonne Training Program for Extreme-Scale Computing (ATPESC)
+      year: 2015
     - title: Research Experience for Undergraduates (REU) in Mathematics
       year: 2011
       description:
         - North Carolina State University, Environmental Protection Agency, Raleigh, NC
         - <span class="emphasized">Development of an Ozone Inhalation and C-Fiber Response Model</span>
         - $4,000 Stipend
-
     - title: Undergraduate Mathematics Program - Mentoring Through Critical Transition Points
       year: 2010
       description:
