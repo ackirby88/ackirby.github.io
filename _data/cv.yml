@@ -6,7 +6,7 @@
     - name: Contact
       value: ackirby88 (at) gmail (dot) com
     - name: Research Interests
-      value: Computational Fluid Dynamics, High Performance Computing, Applied Mathematics, Wind Energy, Aerospace
+      value: Computational Fluid Dynamics, High Performance Computing, GPU and Parallel Programming, Applied Mathematics, Wind Energy, Aerospace
 
 - title: Education
   type: time_table
@@ -119,7 +119,7 @@
       year: 2021
     - title: The p4est software for parallel AMR Hausdorff School
       year: 2020
-    - title: MIT Green AI 2020: Tutorial and Hackathon
+    - title: MIT Green AI 2020 Tutorial and Hackathon
       year: 2020
     - title: XSEDE International High Performance Computing Summer School
       year: 2017
