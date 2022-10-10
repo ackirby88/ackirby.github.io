@@ -18,6 +18,11 @@ category: Applications
 </div>
 
 <h2>Helicopter-Ship Wake Interaction on SFS2 Geometry.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include vimeo.html id='256818241?h=c7ac07cb95&loop=1' class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <article>
     {%- include Rotorcraft_papers.html %}
