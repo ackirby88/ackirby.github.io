@@ -10,7 +10,9 @@ category: Applications
 <h2>Sikorsky S76 Rotorcraft Blade and Hub Simulation</h2>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/s76-qcriterion-0p001-p5-24fps.mp4" title="Sikorsky S76 rotor and hub simulation" class="img-fluid rounded z-depth-1" %}
+        <video controls loop>
+	    <source src="assets/img/s76-qcriterion-0p001-p5-24fps.mp4" type="video/mp4">
+	</video>
     </div>
 </div>
 <div class="caption">
