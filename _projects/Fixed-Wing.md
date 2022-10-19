@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fixed-Wind Aerospace
+title: Fixed-Wing Aerospace
 description: Multi-mesh, multi-solver simulations of fixed-wing, propeller-wing, and jet-propulsion aircraft. 
 img: assets/img/publication_preview/HRLES-WAKE3D.png
 importance: 3
