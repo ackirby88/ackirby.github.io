@@ -103,19 +103,19 @@
       year: 2020
       description:
         - MIT Green AI Hackathon with the MIT-IBM Watson AI Lab
-        - Best Satori (supercomputer) life hack - best use of Satori's unique features or best Satori life hack
+        - Best Satori (supercomputer) life hack - best use of Satori's unique features
            
     - title: Blue Waters Graduate Fellowship
       year: 2016
       description: 
         - Selected 1 of 10 Nationally
-        - 50,000 Node-hours on NSF Blue Waters Supercomputer
+        - 50,000 Node-Hours on NSF Blue Waters Supercomputer
         - $50,000 Stipend
 
 - title: HPC and Mathematics Training Programs
   type: time_table
   contents:
-    - title: Argonne national Laboratory GPU Hackathon
+    - title: Argonne National Laboratory GPU Hackathon
       year: 2021
     - title: The p4est software for parallel AMR Hausdorff School
       year: 2020
