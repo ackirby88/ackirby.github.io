@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Discontinuous Galerkin Methods
+title: DG Methods
 description: High-order discretizations for the compressible Navier-Stokes equations.
-img: assets/img/phaseVI.tile.png
+img: assets/img/sphere.png
 importance: 2
 category: Software
 ---
