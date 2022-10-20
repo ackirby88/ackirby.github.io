@@ -2,7 +2,7 @@
 layout: page
 title: Acoustics
 description: Computation Aeroacoustics 
-img: assets/img/publication_preview/sphere.10000.png
+img: assets/img/sphere.10000.png
 importance: 4
 category: Applications
 ---
