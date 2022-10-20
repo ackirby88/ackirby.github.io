@@ -17,7 +17,7 @@ Using our WAKE3D framework, we have studied many problems spanning fixed- and pr
     </div>
 </div>
 <div class="caption">
-    Flow visualization of the HLPW CRM at 7.05 degrees angle of attack. Isocontours of vorticity magnitude colored by density illustrates the regions of laminar and turbulent flow. Sixth-order spacially-accurate elements are used in the off-body region to track the turbulent vortices.
+    Flow visualization of the HLPW CRM at 7.05 degrees angle of attack. Isocontours of vorticity magnitude colored by density illustrates the regions of laminar and turbulent flow. Sixth-order spatially-accurate elements are used in the off-body region to track the turbulent vortices.
 </div>
 
 We participated in the 2022 AIAA HLPW, which focused on studying CL-max (max lift coefficient) of the NASA Common Research Model aircraft.
