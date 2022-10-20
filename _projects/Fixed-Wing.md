@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fixed-Wing Aircraft
+title: Fixed-Wing
 description: Multi-mesh, multi-solver simulations of aerospace aircraft. 
 img: assets/img/publication_preview/HRLES-WAKE3D.png
 importance: 3
@@ -27,6 +27,11 @@ We applied a hybrid RANS-LES approach through our dual-mesh, dual-solver WAKE3D.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/smc006.jpg" title="SMC006 Jet Nozzle Flow" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/smc006.amr.mesh.png" title="SMC006 AMR Mesh" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
