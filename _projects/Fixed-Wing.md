@@ -24,16 +24,15 @@ We participated in the 2022 AIAA HLPW, which focused on studying CL-max (max lif
 We applied a hybrid RANS-LES approach through our dual-mesh, dual-solver WAKE3D. The finite volume CFD code NSU3D is used in the near-body region to solve the Reynolds-Averaged Navier Stokes (RANS) equations, and in the off-body region, the discontinous Gakerkin solver dg4est is used to solve the compressible Navier-Stokes equations with a Large Eddy Simulation (LES) subgrid scale model. The near-body region is composed of unstructured mixed-type mesh elements which is overset with a 16-level adaptive Cartesian adaptive off-body mesh. To exchange solutions between these two regions, TIOGA (topology-independent overset grid assembler) is used determine overlapping mesh elements, apply hole cutting, and interpolate the solutions. 
 
 
-CRM-Yplus-21p47.png
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/CRM-Yplus-21p47.png" title="High Lift Workshop CRM Y+" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Instantaneous Y+ profiles of the RANS-LES simulations of the CRM-HL aircraft for angle of attack 21.47 degrees.
+    Instantaneous y+ profiles of the RANS-LES simulations of the CRM-HL aircraft for 21.47 degrees angle of attack.
 </div>
-
+Using our framework, we are able to examine flow separation patterns on difference areas of the wing planform. Here, y+ is a nondimensional distance that relates the friction velocity, wall distance, and kinematic viscosity to provide an estimate for mesh resolution. A y+ value less than or equal to 1 indicates sufficient resolution for capturing the wall boundary layer profile.
 
 <h2>SMC006 Jet Nozzle</h2>
 <div class="row">
