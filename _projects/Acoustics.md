@@ -4,7 +4,7 @@ title: Acoustics
 description: Computation Aeroacoustics via the FW-H formulation.
 img: assets/img/sphere.10000.png
 importance: 4
-category: Applications
+category: Software
 ---
 
 In addition to studying the fluid dynamics of various renewable and aerospace applications, we have developed a computational aeroacoustics capability to predict noise signatures at far-field observers. Our noise-prediction strategy is based on a high-order, adaptive overset mesh flow solver combined with a noise-propagation approach based on the direct integration of the Ffowcs Williams-Hawkings (FW-H) equation.
