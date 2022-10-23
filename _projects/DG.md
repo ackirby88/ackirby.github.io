@@ -77,7 +77,7 @@ The primary software I've developed over the past five years in **dg4est** which
   - Boundary Representation (brep) incorporation for curved-mesh adaption
   - Wall-Modeled Large Eddy Simulation
 
-<h2>Unstructured Curved Geometry</h2>
+<h2>Unstructured High-Order Geometry</h2>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/NACA0012.P3.Q2.Mach.gif" title="3D NACA0012 curved grid." class="img-fluid rounded z-depth-1" %}
@@ -94,3 +94,56 @@ The primary software I've developed over the past five years in **dg4est** which
     Adaptive mesh refinement allows for long turbulent wake tracking as illustrated in this flow over a sphere.
 </div>
 
+### CartDG
+**dg4est** utilizes a varible order *hp* discontinuous Galerkin implementation. 
+The numerical FEM kernels in dg4est are carried over from my purely Cartesian DG solver known as CartDG. 
+CartDG discretizes the compressible Navier–Stokes equations with Coriolis and gravitational forces. 
+There are options for a constant or dynamic Smagorinsky Subgrid-Scale (SGS) Large Eddy Simulation (LES) model.
+The solver itself is designed for computational efficiency on Cartesian meshes and has been strong scaled to over 
+1 million MPI ranks on Argonne National Laboratory's Mira Supercomputer as seen below.
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/MIRA-scaling.png" title="CartDG Mira scaling." class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Strong scaling of the CartDG DG solver on Argonne's Mira supercomputer on over 1 million MPI ranks.
+</div>
+
+To demonstrate the computational efficiency of CartDG, 
+several performance statistics for a wide range of orders of solution accuracy are provided. 
+The sustained peak performance of the inviscid and viscous residual evaluations is shown below 
+on an Intel Core i7-5960X Haswell-E processor with eight CPU cores, clock speed of 3.0 GHz, 
+4 GB of memory per core, and a theoretical peak performance of 384 GFLOPS (TauBench benchmark 5.25 seconds). 
+The tensor-product DG formulation achieves roughly 12% sustained compute peak performance 
+for evaluation of the residual of the compressible Navier–Stokes equations (viscous residual) 
+at high solution orders of accuracy.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/CartDG-Peak_ViscVsInviscid.png" title="CartDG peak performance." class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/CartDG-Peak_GeneralVsTensor.png" title="CartDG performance comparison." class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+  Left: Sustained peak performance of CartDG for tensor-product basis formulations of viscous and inviscid equations for 2nd-16th order accuracy.
+  Right: Sustained peak performance for tensor-product basis and general basis formulations of the Compressible Navier–Stokes Equations for 2nd-16th order accuracy. 
+The general formulation operations are casted as Level 3 BLAS matrix–matrix products.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/CartDG-TimePerDOF_ViscVsInviscid.png" title="CartDG peak performance." class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/CartDG-TimePerDOF_GeneralVsTensor.png" title="CartDG formulation comparison." class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+  Time per degree-of-freedom of CartDG for viscous and inviscid equations for discretization orders of accuracy ranging from 2nd- to 24th-order (lower values are
+better). Comparison between the tensor-product and general formulations are shown, noting the former being nearly 10x faster at high orders of accuracy.
+</div>
