@@ -7,7 +7,7 @@ importance: 1
 category: Software
 ---
 
-My primary research revolves around developing high-fidelity numerical methods for Computional Fluid Dynamics problems with applications to Wind Energy and Aerospace.
+My primary research revolves around developing high-fidelity numerical methods for Computational Fluid Dynamics problems with applications to Wind Energy and Aerospace.
 This involves principally writing code de novo as the problems we target require leadership-class supercomputing capabilities. 
 My research vision is to develop highly-scalable and highly-efficient algorithms coupling scientific computation with data-informed modeling suitable for leadership-class heterogeneous supercomputers and to facilitate industry-ready engineering simulations tools applicable to the fields of aerospace and renewable energy.
 
