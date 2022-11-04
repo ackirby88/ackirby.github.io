@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fixed-Wing
-description: Multi-mesh, multi-solver simulations of aerospace aircraft. 
+description: Learn more about multi-mesh, multi-solver simulations for aerospace aircraft. 
 img: assets/img/publication_preview/HRLES-WAKE3D.png
 importance: 3
 category: Applications

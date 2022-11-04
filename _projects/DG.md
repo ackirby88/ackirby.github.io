@@ -1,7 +1,7 @@
 ---
 layout: page
 title: dg4est
-description: High-order discretizations for the compressible Navier-Stokes equations with adaptive mesh refinement.
+description: Learn more about high-order discretizations for the compressible Navier-Stokes equations with adaptive mesh refinement.
 img: assets/img/sphere.png
 importance: 1
 category: Software

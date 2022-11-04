@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wind Energy
-description: Blade-resolved wind turbine and wind farm simulations using WAKE3D.
+description: Learn more about blade-resolved wind turbine and wind farm simulations using WAKE3D.
 img: assets/img/phaseVI.tile.png
 importance: 2
 category: Applications

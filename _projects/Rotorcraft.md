@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rotorcraft
-description: Rotorcraft and propellor simulations simulations using WAKE3D.
+description: Learn more about rotorcraft and propellor simulations simulations using WAKE3D.
 img: assets/img/publication_preview/S76Rotor-WAKE3D.jpg
 importance: 1
 category: Applications
