@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://scientific-sims.com/'>Scientific Simulations</a>. Computational Research Scientist.
+subtitle: <a href='https://www.uwyo.edu/soc/'> University of Wyoming, School of Computing</a>, <a href='https://scientific-sims.com/'>Scientific Simulations</a>. Computational Research Scientist.
 
 profile:
   align: right
